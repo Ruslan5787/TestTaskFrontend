@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+.input {
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 auto 20px;
+  /* margin-bottom: 20px; */
+  width: 50%;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories-wrapper {
+   width: 50%;
+   margin: 0 auto;
+}
+
+.categories > div {
+  padding: 10px;
+}
+
+.resultList {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.resultList-title {
+   margin-top: 30px;
+   align-items: center;
+ }
+
+.resultList li {
+   padding: 5px;
+}
