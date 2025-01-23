@@ -1,4 +1,4 @@
-import { ucFirst, getUserBrowser } from "../helpers";
+import { ucFirst } from "../src/helpers";
 
 describe("ucFirst", () => {
   it("Первая буква строки в заглавном регистре", () => {

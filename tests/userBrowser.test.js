@@ -1,5 +1,5 @@
 import { expect, jest, test } from "@jest/globals";
-import { replaceStateUrl } from "../helpers.js";
+import { replaceStateUrl } from "../src/helpers.js";
 
 describe("Добавление параметра UserBrowser в url, если его нет", () => {
   let searchParams;

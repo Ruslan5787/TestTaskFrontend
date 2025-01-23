@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(204 244 255);
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -6,10 +16,18 @@
   font-size: 20px;
   flex-direction: column;
   align-items: center;
+
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50%;
+  margin: 70px auto;
+  padding: 20px;
 }
 
-.form {
-  margin-top: 100px;
+.content {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 .input {
@@ -20,31 +38,33 @@
   border-radius: 5px;
   outline: none;
   margin: 0 auto 20px;
-  /* margin-bottom: 20px; */
-  width: 50%;
+  width: 100%;
 }
 
 .categories {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.categories-wrapper {
-   width: 50%;
-   margin: 0 auto;
+.categories-title {
+  margin-bottom: 10px;
 }
 
 .categories > div {
+  width: 30%;
   padding: 10px;
 }
 
 .resultList {
   margin-top: 10px;
   align-items: center;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
 }
 
 .resultList-title {
-   margin-top: 30px;
    align-items: center;
  }
 

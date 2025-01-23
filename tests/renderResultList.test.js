@@ -1,4 +1,4 @@
-import { renderResultList } from "../main";
+import { renderResultList } from "../src/main";
 
 describe("renderResultList", () => {
   let UI_ELEMENTS;
@@ -24,10 +24,7 @@ describe("renderResultList", () => {
     searchParamsCurrentUrl.set("phone", "Phone");
     searchParamsCurrentUrl.set("laptop", "Laptop");
 
-   renderResultList(UI_ELEMENTS, searchParamsCurrentUrl);
-
-   console.log([...searchParamsCurrentUrl.entries()])
-
+   renderResultList(UI_ELEMENTS.resultList, searchParamsCurrentUrl);
     const listItems = UI_ELEMENTS.resultList.querySelectorAll("li");
 
     expect(listItems).toHaveLength(2);

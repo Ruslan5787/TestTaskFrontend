@@ -1,7 +1,7 @@
-import { getUserBrowser, replaceStateUrl } from '../helpers.js';
+import { getUserBrowser } from '../src/helpers.js';
 import { jest } from '@jest/globals';
 
-jest.mock("../helpers.js", () => ({
+jest.mock("../src/helpers.js", () => ({
   getUserBrowser: jest.fn(),
   replaceStateUrl: jest.fn(),
 }));

@@ -42,7 +42,3 @@ export const getUserBrowser = () => {
 export const replaceStateUrl = (url) => {
     window.history.replaceState({}, "", url.toString());
 }
-
-export const setStateUrl = (url) => {
-    window.history.replaceState({}, "", url.toString());
-}
